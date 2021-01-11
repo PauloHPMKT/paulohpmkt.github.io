@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prompt de identificação</title>
+    </head>
+    <body>
+        <h1>Welcome to JavaScript world</h1>
+        <script>
+
+            let nome = prompt('Digite seu nome');
+            while(nome == ''){
+               alert('Desculpe, usuário não identificado.');
+               nome = prompt('Digite seu nome');
+            }
+            while(nome == null){
+                window.location.href = "http://www.github.com";
+            }
+            alert(`Olá ${nome} seja bem vindo ao mundo JavaScript`);
+
+        </script>
+    </body>
+</html>
